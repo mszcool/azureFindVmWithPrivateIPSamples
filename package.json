@@ -1,0 +1,19 @@
+{
+  "name": "azurefindvmbyprivateip",
+  "version": "1.0.0",
+  "description": "Finds an Azure Virtual Machine inside a resource group by the private IP assigned to one of its NICs.",
+  "main": "findVmByInternalp.js",
+  "dependencies": {
+    "azure-arm-compute": "^3.0.0-preview",
+    "azure-arm-network": "^3.0.0",
+    "azure-arm-resource": "^2.0.0-preview",
+    "command-line-args": "^4.0.7",
+    "ms-rest-azure": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "findVmByInternalIp --resource-group YourRgName --internalIp 1.2.3.4"
+  },
+  "author": "mszcool",
+  "license": "MIT"
+}
