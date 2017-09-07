@@ -1,0 +1,2 @@
+# azureFindVmWithPrivateIPSamples
+Simple examples that show, how someone can find a Virtual Machine based on a private IP address assigned to one of the Network Interface Card resources of the VM. This is interesting for scenarios in which VM names get generated automatically by a CI/CD/Release Management Tool such as Bosh and scripts or applications running in the VM or orchestrating the CI/CD pipeline outside of Bosh do not know the VM name but know the IP or IP pools that are supposed to be used for a set of VMs.
